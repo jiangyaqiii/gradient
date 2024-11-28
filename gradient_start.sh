@@ -1,6 +1,7 @@
 apt update
 apt install -y sudo
 sudo apt install -y git libglib2.0-0 libnss3 wget unzip libxcb-shm0 libxcb-xkb1 libxcb-xinerama0
+sudo apt install -y libnss3 libgconf-2-4 libasound2
 ################################
 ##安装chromedriver
 wget https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip
