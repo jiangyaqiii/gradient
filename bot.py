@@ -15,21 +15,6 @@ from pathlib import Path
 from fake_useragent import UserAgent
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-banner = """
-               ╔═╗╔═╦╗─╔╦═══╦═══╦═══╦═══╗
-               ╚╗╚╝╔╣║─║║╔══╣╔═╗║╔═╗║╔═╗║
-               ─╚╗╔╝║║─║║╚══╣║─╚╣║─║║║─║║
-               ─╔╝╚╗║║─║║╔══╣║╔═╣╚═╝║║─║║
-               ╔╝╔╗╚╣╚═╝║╚══╣╚╩═║╔═╗║╚═╝║
-               ╚═╝╚═╩═══╩═══╩═══╩╝─╚╩═══╝
-               原作者gihub：airdropinsiders
-               我的gihub：github.com/Gzgod
-               我的推特：推特雪糕战神@Hy78516012
-               TG群：https://t.me/+FZHZVA_gEOJhOWM1
-               TG群（土狗交流）：https://t.me/+0X5At4YG0_k0ZThl
-"""
-print(banner)
-time.sleep(1)
 
 # 加载环境变量
 load_dotenv()
