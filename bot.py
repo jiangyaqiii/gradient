@@ -115,6 +115,7 @@ def open_extension(driver):
 def attempt_connection(proxy):
     """尝试使用代理连接。"""
     chrome_options = setup_chrome_options(proxy)
+    chrome_options.binary_location = '/usr/local/bin/chromedriver'
     service = Service(ChromeDriverManager().install())
     driver = webdriver.Chrome(service=service, options=chrome_options)
 
